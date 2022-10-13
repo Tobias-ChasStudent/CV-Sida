@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Variables */
+:root {
+    --calm-white: #E7E5DF;
+    --main-color: #0f2438;
+    --footer-color: #0e1b29;
+
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header + Nav */
+header {
+    color: var(--calm-white);
+    padding: 2rem;
+    height: fit-content;
+    text-align: center;
+    background: url(../images/header-banner.jpg);
+    background-position: center;
+}
+
+nav {
+    margin: 5rem auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li {
+    margin: 5px auto;
+}
+
+nav a {
+    color: var(--calm-white);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+}
+.active {
+    text-decoration: underline;
+}
+/* About me Main */
+main {
+    background-color: var(--main-color);
+    color: var(--calm-white);
+    padding: 1rem;
+}
+
+main h2 {
+    max-width: fit-content;
+    margin: 2rem auto;
+
+}
+
+main article {
+    margin: 1rem auto;
+}
+/* Footer */
+footer {
+    background-color: var(--footer-color);
+    color: var(--calm-white);
+    padding: 1rem;
+}
+footer img {
+    width: 70%;
+    margin: 1rem auto;
+}
+@media screen and (min-width: 600px) {
+    /* About me main */
+    .traits {
+        display: grid;
+        grid-template:
+        "trait-1 ." 1fr 
+        ".trait-2 " 1fr 
+        "trait-3 ." 1fr
+        ".trait-4 " 1fr;
+        gap: 50px;
+    }
+    main article:nth-child(1) {
+        grid-area: trait-1;
+    }
+    main article:nth-child(2) {
+        grid-area: trait-2;
+    }
+    main article:nth-child(3) {
+        grid-area: trait-3;
+    }
+    main article:nth-child(4) {
+        grid-area: trait-4;
+    }
+    /* Footer */
+    footer img {
+        width: 30%;
+    }
+    footer p {
+        width: 60%;
+    }
+}
