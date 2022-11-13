@@ -1,0 +1,15 @@
+{
+    "Projects": [{
+            "High School": "During my three years of High School at NTI Stockholm, I chose a program which focused on webdevelopment. There, I was taught the foundation of webdevelopment, including HTML, CSS, JavaScript, PhP and MySQL. This program sparked my interest and is the begining of my journey."
+        },
+        {
+            "Internship": "At the end of my second year and begining of my third year, I worked and developed for Diana Svensson. She was building her own portfolio website and needed help. My job was to think of ways to realize her requests. These requests spanned from a simple video running in the background, to a scaleable slideshow where you can switch slides as you please."
+        },
+        {
+            "University": "After I was done with High School, I was accepted into Chas Academy. This is where I am in my journey currently, learning how to fetch APIs. Continuing forward I will learn the React library, the Vue.js framework, the node.js framework on the backend and so much more."
+        },
+        {
+            "My Projects": "During my 3 months here at Chas Academy, I have already learnt a lot. These projects go from simple to advanced, as I figure out ways to apply my knowledge to the assignments at hand. Click me to see some 👆"
+        }
+    ]
+}
