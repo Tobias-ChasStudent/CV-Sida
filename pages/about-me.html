@@ -1,64 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tobias Riiser</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <!-- <link rel="stylesheet" href="../css/main.css"> -->
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../images/logo.png">
 </head>
-<body>
-    <header>
-        <h1>Tobias Riiser</h1>
-        <h3>Space Enthusiast</h3>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#" class="active">About me</a></li>
-                <li><a href="./projects.html">Portfolio</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./lorem.html">Lorem Ipsum</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>I am...</h2>
-        <div class="traits">
-            <article>
-                <h3>Enthusiastic</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sed illum. Tempore eum cum laboriosam amet dolorum reiciendis ab similique ipsam consequuntur aut ex enim quis soluta unde, non officia eaque odio earum animi excepturi? Consequatur dolorum deserunt eaque blanditiis ex assumenda accusantium sunt cumque nostrum est. Dolorum, doloribus ad?
-                </p>
-            </article>
-            <article>
-                <h3>Forever Learning</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sed illum. Tempore eum cum laboriosam amet dolorum reiciendis ab similique ipsam consequuntur aut ex enim quis soluta unde, non officia eaque odio earum animi excepturi? Consequatur dolorum deserunt eaque blanditiis ex assumenda accusantium sunt cumque nostrum est. Dolorum, doloribus ad?
-                </p>
-            </article>
-            <article>
-                <h3>Curious</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sed illum. Tempore eum cum laboriosam amet dolorum reiciendis ab similique ipsam consequuntur aut ex enim quis soluta unde, non officia eaque odio earum animi excepturi? Consequatur dolorum deserunt eaque blanditiis ex assumenda accusantium sunt cumque nostrum est. Dolorum, doloribus ad?
-                </p>
-            </article>
-            <article>
-                <h3>Dependable</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sed illum. Tempore eum cum laboriosam amet dolorum reiciendis ab similique ipsam consequuntur aut ex enim quis soluta unde, non officia eaque odio earum animi excepturi? Consequatur dolorum deserunt eaque blanditiis ex assumenda accusantium sunt cumque nostrum est. Dolorum, doloribus ad?
-                </p>
-            </article>
-        </div>
-    </main>
-    <footer>
 
-            <img src="../images/logo.png" alt="Logo">
+<body>
+    <!-- Idea for design, make the website look like vscode, with a navbar on the left like the explorer, headers and paragraphs have displayed tags, etc -->
+    <nav>
+        <ul>
+            <li class="links" id="cell-1"><a href="../index.html" title="Home" ><img src="../images/home-icon.png" alt=""></a></li>
+            <li class="links" id="cell-1"><a href="#" title="About me"><img  class="active" src="../images/about-me-icon.png" alt=""></a></li>
+            <li class="links" id="cell-2"><a href="./contact.html" title="Contact me"><img  src="../images/contact-icon.png" alt=""></a></li>
+            <li class="links" id="cell-3"><a href="./projects.html" title="My projects"><img  src="../images/projects-icon.png" alt=""></a></li>
+            <li class="links" id="cell-4"><a href="./services.html" title="My services"><img  src="../images/services-icon.png" alt=""></a></li>
+        </ul>
+    </nav>
+    <div class="main">
+
+        <!-- Header -->
+
+        <header>
+            <div class="tag">
+                <span>&lt;</span>
+                header
+                <span>&gt;</span>
+            </div>
+
+            <h1>Tobias Riiser</h1>
+            <h3>Code Enthusiast</h3>
+
+            <div class="tag">
+                <span>&lt;/</span>
+                header
+                <span>&gt;</span>
+            </div>
+        </header>
+
+
+        <!-- Main -->
+        <main>
+
+            <div class="tag">
+                <span>&lt;</span>
+                main
+                <span>&gt;</span>
+            </div>
+
+            <h2>About me</h2>
+            <section class="traits">
+
+                <div class="tag">
+                    <span>&lt;</span>
+                    section
+                    <span><span class="attribute">class=<span class="attributeValue">"traits"</span></span> &gt;</span>
+                </div>
+
+                <article>
+                    <h3>Enthusiastic</h3>
+                    <p>
+                        I have always, and will always be passionate about doing what I love. Coding could never be
+                        boring to me, with so many ways to solve a problem, how could it be? If something could be
+                        better, you can definitely count on me finding out how.
+                    </p>
+                </article>
+                <article>
+                    <h3>Forever Learning</h3>
+                    <p>
+                        There will always be new things to learn. Another framework, language, or method. Whatever there
+                        is ahead of me, I will put my head down and make sure I understand it.
+                    </p>
+                </article>
+                <article>
+                    <h3>Agile</h3>
+                    <p>
+                        Apart from climbing, I know how to be agile while coding too. If something I've done doesn't fit
+                        the model of a company, I will undo and redo until it does. Aditionally, I am able to both work
+                        in an office and remotely.
+                    </p>
+                </article>
+                <article>
+                    <h3>Dependable</h3>
+                    <p>
+                        No matter how hard something might seem, I will not give up. If it means to either ask my peers
+                        or research on my own, I will always make sure the work is done sooner, rather than later.
+                    </p>
+                </article>
+
+                <div class="tag">
+                    <span>&lt;/</span>
+                    section
+                    <span>&gt;</span>
+                </div>
+
+            </section>
+
+            <div class="tag">
+                <span>&lt;/</span>
+                main
+                <span>&gt;</span>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+
+        <div class="tag">
+            <span>&lt;</span>
+            footer
+            <span>&gt;</span>
+        </div>
+        <footer>
+
+
             <h3>Tobias Riiser</h3>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum reprehenderit illum, vel iusto repellat sint voluptate omnis tempore maxime error ratione architecto aspernatur explicabo maiores quae! Cumque atque optio sit.
+                This is my website for displaying my previous and current work. Don't stay down here, there's nothing to
+                see.
             </p>
 
-    </footer>
+        </footer>
+        <div class="tag">
+            <span>&lt;/</span>
+            footer
+            <span>&gt;</span>
+        </div>
+    </div>
 </body>
+
 </html>
